@@ -12,6 +12,7 @@ figcaption {
 }
 
 section {
+  width: 80%;
   display: block;
   margin: auto;
 }
