@@ -3,3 +3,16 @@ img {
   margin: auto;
   width: 500px;
 }
+
+
+figcaption {
+  color: #aaa;
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+
+body {
+  background: #eee;
+}
+
