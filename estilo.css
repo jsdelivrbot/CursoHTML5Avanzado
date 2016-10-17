@@ -6,6 +6,9 @@ p {
 	color: #fff;
 	font-family: Verdana, sans-serif;
 	padding: 20px;
+	width: 80%;
+	display: block;
+	margin: auto;
 }
 
 h1 {
