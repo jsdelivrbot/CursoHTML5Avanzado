@@ -12,7 +12,7 @@ figcaption {
 }
 
 section {
-background-color: red;
+background: red;
   width: 80%;
   display: block;
   margin: auto;
