@@ -1,3 +1,8 @@
+h1 {
+   font-size: 40px;
+   color: grey;
+}
+
 img {
   display: block;
   margin: auto;
@@ -9,8 +14,7 @@ figcaption {
   color: #333;
   font-family: Verdana, sans-serif;
   font-size: 20px;
-  padding-bottom: 20px;
-  color: white;
+  padding-bottom: 40px;
 }
 
 section {
