@@ -5,6 +5,7 @@ body {
 p {
 	color: #fff;
 	font-family: Verdana, sans-serif;
+	padding: 20px;
 }
 
 h1 {
@@ -16,7 +17,6 @@ h1 {
 img {
 	display: block;
 	margin: auto;
-	padding-bottom: 20px;
 }
 
 section {
