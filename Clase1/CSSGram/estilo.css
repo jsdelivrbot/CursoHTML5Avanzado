@@ -9,13 +9,15 @@ figcaption {
   color: #333;
   font-family: Verdana, sans-serif;
   font-size: 20px;
+  padding-bottom: 20px;
+  color: white;
 }
 
 section {
   width: 80%;
   display: block;
   margin: auto;
-    text-align: center;
+  text-align: center;
 }
 
 body {
