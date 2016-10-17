@@ -12,11 +12,10 @@ figcaption {
 }
 
 section {
-background: red;
-  text-align: center;
   width: 80%;
   display: block;
   margin: auto;
+    text-align: center;
 }
 
 body {
