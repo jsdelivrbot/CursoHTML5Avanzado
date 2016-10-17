@@ -1,8 +1,9 @@
 h1 {
    font-size: 40px;
-   color: grey;
+   color: #222;
    padding: 20px;
    font-family: Arial, Verdana, sans-serif;
+   text-align: center;
 }
 
 img {
