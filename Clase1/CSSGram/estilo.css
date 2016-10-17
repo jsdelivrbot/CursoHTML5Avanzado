@@ -9,10 +9,12 @@ figcaption {
   color: #aaa;
   font-family: Verdana;
   font-size: 20px;
+}
+
+figure{
   display: block;
   margin: auto;
 }
-
 
 body {
   background: #eee;
