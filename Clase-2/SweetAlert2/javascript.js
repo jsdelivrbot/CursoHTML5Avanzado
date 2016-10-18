@@ -1,10 +1,10 @@
 function mensaje() {
   swal({
-    title: 'Super Mario Bros',
-    text: 'Aumenta tamaño',
+    title: 'Powerup',
+    text: 'Aumenta el tamaño de Mario Bros',
     imageUrl: 'seta.png',
-    imageWidth: 440,
-    imageHeight: 250,
+    imageWidth: 340,
+    imageHeight: 340,
     padding: 20,
     animation: false,
   });
