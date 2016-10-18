@@ -29,3 +29,12 @@ hr {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+
+/*************************/
+/* BEFORE-AFTER */
+.ba-slider {
+	width: 640px;
+	margin: auto;
+	border: 5px solid #000;
+}
