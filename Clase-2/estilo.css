@@ -12,6 +12,11 @@ body {
 }
 
 .slider {
+	max-width: 300px;
+	margin: auto;
+}
+
+img {
 	width: 200px;
 	margin: auto;
 }
