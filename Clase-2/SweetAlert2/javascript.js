@@ -7,13 +7,12 @@ function mensaje() {
     imageHeight: 340,
     padding: 20,
     animation: false,
-    
-    
+        
     showCloseButton: true,
-    confirmButtonText: '<i class="fa fa-thumbs-up"></i> ¡Bien!',
+    confirmButtonText: '<i class="fa fa-thumbs-up"></i> Like',
     confirmButtonColor: '#1db75a',
     showCancelButton: true,
-    cancelButtonText: '<i class="fa fa-thumbs-down"></i> :(',
+    cancelButtonText: '<i class="fa fa-thumbs-down"></i> Dislike',
   }).then(
     function() { swal('¡Aceptado!') },
     function() { swal('¡Cancelado!') }
