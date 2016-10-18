@@ -2,17 +2,18 @@ button {
   margin: 50px;
 }
 
+/*
 .colorear {
   background: pink;
 }
-
+*/
 
 body {
 	background: #444;
 }
 
 .slider {
-	max-width: 300px;
+	max-width: 200px;
 	margin: auto;
 }
 
