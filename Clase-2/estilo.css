@@ -5,3 +5,13 @@ button {
 .color_boton {
   background: #638cb5;
 }
+
+
+body {
+	background: steelblue;
+}
+
+.slider {
+	max-width: 640px;
+	margin:auto;
+}
