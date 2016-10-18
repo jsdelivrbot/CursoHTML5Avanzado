@@ -12,8 +12,8 @@ body {
 }
 
 .slider {
-background: white;
-	border: 1px;
-	max-width: 250px;
+	background: white;
+	border: 1px black;
+	width: 220px;
 	margin:auto;
 }
