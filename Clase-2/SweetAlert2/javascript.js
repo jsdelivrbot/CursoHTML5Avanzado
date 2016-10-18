@@ -9,8 +9,6 @@ function mensaje() {
     animation: false,
     
     
-    
-    type: 'success',
     showCloseButton: true,
     confirmButtonText: '<i class="fa fa-thumbs-up"></i> ¡Bien!',
     confirmButtonColor: '#1db75a',
