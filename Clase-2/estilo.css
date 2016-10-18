@@ -12,8 +12,6 @@ body {
 }
 
 .slider {
-	background: white;
-	border: 1px black;
-	width: 220px;
-	margin:auto;
+	width: 200px;
+	margin: auto;
 }
