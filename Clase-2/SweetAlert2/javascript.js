@@ -14,8 +14,8 @@ function mensaje() {
     showCancelButton: true,
     cancelButtonText: '<i class="fa fa-thumbs-down"></i> Dislike',
   }).then(
-    function() { swal('¡Aceptado!') },
-    function() { swal('¡Cancelado!') }
+    function() { swal('¡Gracias!') },
+    function() { swal(':(') }
   );
   
   
