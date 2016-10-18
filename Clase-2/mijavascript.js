@@ -11,9 +11,4 @@ $(document).ready(function() {
 });
 
 
-/* Before-after */
-
-$(document).ready(function() {
-	$('.ba-slider'.beforeAfter();
-});
 
