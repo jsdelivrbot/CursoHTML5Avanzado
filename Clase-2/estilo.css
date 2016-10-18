@@ -14,7 +14,8 @@ body {
 
 .slider {
 	max-width: 300px;
-	margin: auto;background: white;
+	margin: auto;
+	background: rgba(255,255,255,0.5);
 }
 
 img {
