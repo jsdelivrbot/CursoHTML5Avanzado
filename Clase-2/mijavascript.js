@@ -1,3 +1,5 @@
+/*Slider */
+
 $(document).ready(function() {
 	$('.slider').slick({
 	autoplay: true,
@@ -7,3 +9,7 @@ $(document).ready(function() {
 	fade: true,
 	});
 });
+
+
+/* Before-after */
+$('.ba-slider'.beforeAfter();
