@@ -15,5 +15,6 @@ body {
 .slider {
 	max-width: 100px;
 	margin: auto;
+	height: 200px;
 }
 
