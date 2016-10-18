@@ -8,3 +8,10 @@
 body {
 	background: #ddd;
 }
+
+
+h1 {
+	text-align: center;
+	font-size: 72px;
+	color: #E0F8F7;
+}
