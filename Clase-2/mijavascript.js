@@ -3,5 +3,6 @@ $(document).ready(function() {
 	autoplay: true,
 	autoplaySpeed: 3000,
 	arrows: true,
+	infinite: true,
 	});
 });
