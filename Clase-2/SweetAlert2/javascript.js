@@ -7,6 +7,21 @@ function mensaje() {
     imageHeight: 340,
     padding: 20,
     animation: false,
+    
+    
+    
+    type: 'success',
+    showCloseButton: true,
+    confirmButtonText: '<i class="fa fa-thumbs-up"></i> ¡Bien!',
+    confirmButtonColor: '#1db75a',
+    showCancelButton: true,
+    cancelButtonText: '<i class="fa fa-thumbs-down"></i> :(',
+  }).then(
+    function() { swal('¡Aceptado!') },
+    function() { swal('¡Cancelado!') }
+  );
+  
+  
   });
 }
 
