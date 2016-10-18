@@ -22,6 +22,8 @@ function mensaje() {
 
 }
 
+/* Poner new audio (ver curso javascript) q suene la moneda*/
+
 
 /*function mensaje() {
   swal({
