@@ -13,5 +13,6 @@ body {
 h1 {
 	text-align: center;
 	font-size: 72px;
-	color: #E0F8F7;
+	color: #444;
+	font-family: Verdana, Arial, sans-serif;
 }
