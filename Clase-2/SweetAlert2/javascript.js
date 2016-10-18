@@ -1,5 +1,18 @@
 function mensaje() {
   swal({
+    title: 'Super Mario Bros',
+    text: 'Aumenta tamaño',
+    imageUrl: 'seta.png',
+    imageWidth: 440,
+    imageHeight: 250,
+    padding: 20,
+    animation: false,
+  });
+}
+
+
+/*function mensaje() {
+  swal({
     title: 'Título',
     text: 'Mensaje de texto',
     type: 'success',
@@ -13,7 +26,7 @@ function mensaje() {
     function() { swal('¡Cancelado!') }
   );
 }
-
+*/
 
 /*function mensaje() {
   swal({
