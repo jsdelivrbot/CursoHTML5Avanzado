@@ -20,8 +20,7 @@ body {
 	background: rgba(255,255,255,0.5);
 }
 
-
-.slider img {
+img {
 	width: 200px;
 	margin: auto;
 	margin-top: 100px;
@@ -31,13 +30,4 @@ body {
 hr {
 	margin-top: 50px;
 	margin-bottom: 50px;
-}
-
-
-/*************************/
-/* BEFORE-AFTER */
-.ba-slider {
-	width: 500px;
-	margin: auto;
-	border: 5px solid #000;
 }
