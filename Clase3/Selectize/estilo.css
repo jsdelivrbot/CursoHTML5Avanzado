@@ -3,8 +3,8 @@
 }
 
 .selectize-input .item {
-  background: linear-gradient(steelblue, blue)!important;
-  border: 1px solid steelblue!important;
+  background: linear-gradient(#F5A9BC, #F6CEE3)!important;
+  border: 1px solid #F6CEE3!important;
   color: white!important;
   border-radius: 5px;
 }
