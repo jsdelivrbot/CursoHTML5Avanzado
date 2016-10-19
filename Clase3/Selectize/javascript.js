@@ -1,16 +1,9 @@
 $(document).ready(function() {
-    
-    $('#input-tags').selectize({
-    plugins: ['remove_button', 
-              'drag_drop'],
-
-    });
-    
     $('#input-tags').selectize({
       delimiter: ' ',
       persist: false,
       maxItems: 4,    
-        
+      plugins: ['remove_button', 'drag_drop'],
       create: function(input) {
         return { 
           value: input,
