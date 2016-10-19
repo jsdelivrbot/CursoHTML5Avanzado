@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#input-tags').selectize({
-      delimiter: ',',
+      delimiter: ' ',
       persist: false,
       create: function(input) {
         return { 
@@ -9,4 +9,12 @@ $(document).ready(function() {
         }
       }
   });
+
+
+
+function viewTags() {
+  tags = document.getElementById('input-tags');
+  console.log(tags.value.split(' '));
+}
+
 });
