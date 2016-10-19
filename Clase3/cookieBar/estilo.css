@@ -1,6 +1,7 @@
 .cookie-message {
   width: 200px;
-  position: absolute;
+  height: 50px;
+  position: relative;
   top: auto;
   left: auto;
   bottom: 0;
