@@ -7,5 +7,6 @@ $(document).ready(function() {
     // del código HTML
   });
 
+  $('#trumbowyg').trumbowyg('html');
 
 });
