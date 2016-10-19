@@ -1,12 +1,12 @@
 .cookie-message {
-  width: 220px;
+  width: 200px;
   /*position: relative;*/
   top: auto;
   left: auto;
   bottom: 0;
   right: 0;
   background: #111 url(http://download.seaicons.com/icons/psdblast/flat-christmas/48/gingerbread-man-cookie-icon.png) 240px 30px no-repeat;
- 
+  padding-left: 5px;
 }
 
 
