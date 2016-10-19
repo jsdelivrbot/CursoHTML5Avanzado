@@ -18,6 +18,8 @@ $(document).ready(function() {
           ['fullscreen']
         ],
   });
+  
+  $('.editor').trumbowyg('html');
 
 
 
