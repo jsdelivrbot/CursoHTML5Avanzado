@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $('.editor').trumbowyg({
-    svgPath: 'icons.svg', // path of icons.svg
+    svgPath: 'icons.svg', // path of icons.svg Hay que poner la ruta relativa, además de subir el archivo svg a GitHub
     // Habitualmente, se indica la ruta del SVG en este parámetro, pero
     // en codepen, simplemente pegaremos el contenido del SVG en la parte
     // del código HTML
@@ -15,7 +15,7 @@ $(document).ready(function() {
           ['link', 'insertImage'],
           ['horizontalRule', 'removeformat'],
           ['viewHTML'],
-          ['fullscreen']
+
         ],
   });
 
