@@ -6,6 +6,7 @@ $(document).ready(function() {
     // Función disparada
     handler: function(direction) {
       alert('¡Has llegado!');
+      // La alerta sale cuando el elemento objetivo "meta" alcanza la parte superior de la ventana
     }
   });
 });  
