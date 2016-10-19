@@ -1,8 +1,16 @@
 $(document).ready(function() {
+    
+    $('#input-tags').selectize({
+    plugins: ['remove_button', 
+              'drag_drop'],
+
+    });
+    
     $('#input-tags').selectize({
       delimiter: ' ',
       persist: false,
-        maxItems: 4,
+      maxItems: 4,    
+        
       create: function(input) {
         return { 
           value: input,
@@ -10,11 +18,6 @@ $(document).ready(function() {
         }
       }
         
-    $('#input-tags').selectize({
-    plugins: ['remove_button', 
-              'drag_drop'],
-
-    });
   });
 
 
