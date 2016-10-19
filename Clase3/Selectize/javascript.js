@@ -9,12 +9,13 @@ $(document).ready(function() {
         }
       }
   });
+});
 
 
-
+$(document).ready(function() {
 function viewTags() {
   tags = document.getElementById('input-tags');
   console.log(tags.value.split(' '));
 }
-
 });
+
