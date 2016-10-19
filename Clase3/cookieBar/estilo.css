@@ -10,7 +10,6 @@
 }
 .cookie-message p {
   color: #FFF
-  padding: 5px;
-  color: blue;
+  font-size: 12px;
 }
 .cookie-message a { color: #2AF }
