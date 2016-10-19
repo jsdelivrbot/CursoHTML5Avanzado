@@ -15,7 +15,7 @@ $(document).ready(function() {
           ['link', 'insertImage'],
           ['horizontalRule', 'removeformat'],
           ['viewHTML'],
-
+          ['fullscreen']
         ],
   });
 
