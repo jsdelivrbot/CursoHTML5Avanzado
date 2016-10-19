@@ -8,8 +8,14 @@
   background: #111 url(http://download.seaicons.com/icons/psdblast/flat-christmas/48/gingerbread-man-cookie-icon.png) 100px 100px no-repeat;
  
 }
+
+
 .cookie-message p {
   color: #FFF;
   font-size: 12px;
 }
-.cookie-message a { color: #2AF }
+
+
+.cookie-message a {
+  color: red
+}
