@@ -8,12 +8,13 @@ $(document).ready(function() {
     
     lang: 'es', // Idioma (es.min.js incluido)
     btns: [
+          ['link', 'insertImage'],
           ['bold', 'italic', 'underline', 'strikethrough'],
-          ['superscript', 'subscript'],
           ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'],
           ['unorderedList', 'orderedList'],
-          ['link', 'insertImage'],
-          ['horizontalRule', 'removeformat'],
+          ['superscript', 'subscript'],
+          ['horizontalRule'],
+          ['removeformat'],
           ['viewHTML'],
           ['fullscreen']
         ],
