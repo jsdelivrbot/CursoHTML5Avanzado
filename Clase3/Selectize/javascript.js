@@ -2,6 +2,7 @@ $(document).ready(function() {
     $('#input-tags').selectize({
       delimiter: ' ',
       persist: false,
+        maxItems: 4,
       create: function(input) {
         return { 
           value: input,
