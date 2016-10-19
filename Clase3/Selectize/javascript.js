@@ -9,6 +9,12 @@ $(document).ready(function() {
           text: input 
         }
       }
+        
+    $('#input-tags').selectize({
+    plugins: ['remove_button', 
+              'drag_drop'],
+
+    });
   });
 
 
@@ -16,5 +22,9 @@ function viewTags() {
       tags = document.getElementById('input-tags');
       console.log(tags.value.split(' '));
     }
+    
+    
+    
+
 });
 
