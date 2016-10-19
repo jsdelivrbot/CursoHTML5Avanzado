@@ -5,6 +5,6 @@
 .selectize-input .item {
   background: linear-gradient(#F5A9BC, #F6CEE3)!important;
   border: 1px solid #F6CEE3!important;
-  color: white!important;
+  color: #444!important;
   border-radius: 5px;
 }
