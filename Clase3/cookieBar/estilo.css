@@ -8,6 +8,7 @@
   right: 0;
   background: #111 url(http://i.emezeta.com/img/cookiem.png) 245px 45px no-repeat;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 .cookie-message p { color: #FFF }
 .cookie-message a { color: #2AF }
