@@ -9,3 +9,15 @@
   border: 15px solid #FFF;
   box-shadow: 0 0 10px RGBA(0,0,0, .5);
 }
+
+
+
+
+h1 {
+  font-family: Verdana, Arial, sans-serif;
+  color: white;
+  background: #F4C63D;;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+}
