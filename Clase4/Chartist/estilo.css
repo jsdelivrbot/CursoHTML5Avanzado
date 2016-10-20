@@ -11,7 +11,9 @@ h1 {
   background: #F4C63D;;
   margin-bottom: 30px;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
 }
 
 
