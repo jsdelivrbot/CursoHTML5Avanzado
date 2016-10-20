@@ -10,4 +10,5 @@ $(document).ready(function() {
   var options = {}
 
   new Chartist.Line('.chart', data, options);
+   new Chartist.Bar('.chart2', data, options);
 });
