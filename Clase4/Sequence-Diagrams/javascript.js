@@ -1,6 +1,7 @@
 $(document).ready(function() { 
     // var sample = 'Entrada->Salida: Función';
-    var sample = 'Title: Esto es un título';
+    // var sample = 'Title: Esto es un título';
+    var sample = 'Izquierda-->Derecha: Ir en este sentido';
 
     var diagram = Diagram.parse(sample);
 
