@@ -1,5 +1,5 @@
 $(document).ready(function() { 
-    var sample = 'A->B: Mensaje';
+    var sample = 'Entrada->Salida: Función';
 
     var diagram = Diagram.parse(sample);
 
