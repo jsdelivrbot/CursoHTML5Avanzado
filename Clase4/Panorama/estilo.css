@@ -11,4 +11,5 @@ h1 {
   width: 600px;
   height: 400px;
   background: #DDD;
+  border: 1px solid black;
 }
