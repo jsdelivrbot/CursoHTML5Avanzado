@@ -10,5 +10,22 @@ $(document).ready(function() {
   var options = {}
 
   new Chartist.Line('.chart', data, options);
-   new Chartist.Bar('.chart2', data, options);
-});
+  new Chartist.Bar('.chart2', data, options);
+  
+  
+  
+  //////////////
+  
+  var data2 = {
+    series: [30, 15, 5, 50]
+  }
+
+  var options2 = {
+    // donut: true,
+    // donutWidth: 40,
+    // startAngle: 270,
+    // total: 200
+  }
+
+  new Chartist.Pie('.chart3', data2, options2);
+  });
