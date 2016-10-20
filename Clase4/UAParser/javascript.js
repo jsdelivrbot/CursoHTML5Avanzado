@@ -3,6 +3,6 @@ var ua = navigator.userAgent;
 var parser = new UAParser();
 
 var navegador = parser.getBrowser();
-alert('hola');
+alert('navegador.name');
 
 });
