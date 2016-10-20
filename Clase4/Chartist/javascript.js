@@ -22,9 +22,9 @@ $(document).ready(function() {
 
   var options2 = {
      donut: true,
-     donutWidth: 100,
-     startAngle: 270,
-    // total: 200
+     donutWidth: 70,
+     startAngle: 90,
+     total: 200
   }
 
   new Chartist.Pie('.chart3', data2, options2);
