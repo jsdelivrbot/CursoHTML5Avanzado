@@ -14,5 +14,5 @@ table th.sort-up::after {
 
 /* Orden descendente */
 table th.sort-down::after {
-  content: " v";
+  content: " ▼";
 }
