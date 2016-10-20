@@ -6,7 +6,7 @@ $(document).ready(function() {
             }]
   };
 
-  var options = {30}
+  var options = {}
 
   new Chartist.Line('.chart', data, options);
 });
