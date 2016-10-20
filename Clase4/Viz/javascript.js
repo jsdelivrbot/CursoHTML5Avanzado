@@ -2,7 +2,8 @@ $(document).ready(function() {
   var sample = 'digraph migrafo { Euro -> Pesetas [label="166.386"] [color=grey] [style=dashed]; Euro [style=bold]; Pesetas [color=green] }'; // grafo dirigido
 
   var options = {
-    format: 'svg'
+    format: 'svg',
+    engine: 'circo'
     // format: 'png-image-element'
   }
 
