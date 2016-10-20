@@ -1,5 +1,5 @@
 $(document).ready(function() { 
-  var sample = 'digraph migrafo { Euro -> Pesetas [label="166.386"] [color=grey] [style=dashed]; Euro [style=bold]; Pesetas [color=green]; A -> B }'; // grafo dirigido
+  var sample = 'digraph migrafo { Euro -> Pesetas -> Moneda [label="166.386"] [color=grey] [style=dashed]; Euro [style=bold]; Pesetas [color=green]; }'; // grafo dirigido
 
   var options = {
     format: 'svg',
