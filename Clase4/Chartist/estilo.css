@@ -15,8 +15,8 @@ h1 {
 }
 
 
-.chart .ct-series-c line,  
-.chart .ct-series-c path {
-  stroke: #0F0;
+.chart .ct-series-b line,  
+.chart .ct-series-b path {
+  stroke: #A4CE70;
 }
 
