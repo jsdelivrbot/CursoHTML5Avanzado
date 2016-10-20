@@ -9,7 +9,7 @@ h1 {
 
 /* Orden ascendente */
 table th.sort-up::after {
-  content: " ^";
+  content: " ▲";
 }
 
 /* Orden descendente */
