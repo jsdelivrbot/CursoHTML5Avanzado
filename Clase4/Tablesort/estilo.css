@@ -6,3 +6,13 @@ h1 {
   text-align: center;
   font-size: 40px;
 }
+
+/* Orden ascendente */
+table th.sort-up::after {
+  content:"⏷";
+}
+
+/* Orden descendente */
+table th.sort-down::after {
+  content:"⏶";
+}
