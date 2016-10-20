@@ -4,6 +4,6 @@ $(document).ready(function() {
     var diagram = Diagram.parse(sample);
 
     diagram.drawSVG('diagram', {
-        theme: 'hand'    // o 'simple'
+        theme: 'simple'    // o 'hand'
     });
 });
