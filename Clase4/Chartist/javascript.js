@@ -22,8 +22,8 @@ $(document).ready(function() {
 
   var options2 = {
      donut: true,
-     donutWidth: 50,
-    // startAngle: 270,
+     donutWidth: 100,
+     startAngle: 270,
     // total: 200
   }
 
