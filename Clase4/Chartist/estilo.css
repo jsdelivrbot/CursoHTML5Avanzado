@@ -11,4 +11,12 @@ h1 {
   background: #F4C63D;;
   margin-bottom: 30px;
   text-align: center;
+  font-size: 60px;
 }
+
+
+#chart .ct-series-c line,   // puntos
+#chart .ct-series-c path {  // línea
+  stroke: #0F0;
+}
+
