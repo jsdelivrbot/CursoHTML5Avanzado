@@ -10,6 +10,6 @@ $(document).ready(function() {
   var main = document.getElementById('main');
 
   main.innerHTML = image;        // SVG
-  main.appendChild(image);    // PNG
+ // main.appendChild(image);    // si arriba puse png pongo esta línea, pero como puse svg, pongo la linea anterior
 
 });
