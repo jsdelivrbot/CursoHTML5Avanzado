@@ -18,13 +18,13 @@ h2 {
 }
 
 .step {
-  border: 1px solid black;
+  border: 1px solid grey;
   width: 300px;
 }
 
 
 img {
-  width: 200px;
+  width: 500px;
   margin: auto;
 }
 
