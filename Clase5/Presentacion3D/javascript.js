@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 });
 
-/* En vez de usar el document ready, usamos esto que es sin jQuery: */
+/* En vez de usar el document ready, usamos esto que es sin jQuery: 
 window.addEventListener('DOMContentLoaded', function() {
     impress().init();
-};
+};*/
