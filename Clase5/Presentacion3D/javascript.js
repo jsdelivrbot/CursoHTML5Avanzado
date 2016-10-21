@@ -4,6 +4,6 @@ $(document).ready(function() {
 });
 
 /* En vez de usar el document ready, usamos esto que es sin jQuery: */
-windows.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function() {
     impress().init();
 };
