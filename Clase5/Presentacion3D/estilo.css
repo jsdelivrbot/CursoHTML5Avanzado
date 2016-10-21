@@ -18,8 +18,8 @@ h2 {
 }
 
 .step {
-  border: 1px solid grey;
   width: 200px;
+  margin: auto;
 }
 
 
