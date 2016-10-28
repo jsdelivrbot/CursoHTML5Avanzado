@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stranger Things</title>
+	
+	<!-- Librerías -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Buttons/2.0.0/js/buttons.min.js"></script> <!-- Buttons: Botones predefinidos -->
+	<script src="https://cdn.rawgit.com/jotform/before-after.js/master/before-after.min.js"></script> <!-- Before-After: Comparación de imágenes -->
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> <!-- Bootstrap para diseño responsive -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Buttons/2.0.0/css/buttons.min.css">	<!-- Buttons: Botones predefinidos -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Font Awesome: Uso de iconos como fuentes -->	
+	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/jotform/before-after.js/master/before-after.min.css"> <!-- Before-After: Comparación de imágenes -->
+	
+
+	
+			
+	<!-- Mis librerías -->	
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+
+<body>
+	<header>
+		<div> <!-- Audio con Intro de la serie -->	
+			<audio autoplay>
+				<source src="IntroStrangerThings.mp3" type="audio/mpeg">
+				Tu navegador no soporta este elemento de audio.
+			</audio>
+			<button id="boton_audio" class="button button-circle button-small button-action button-longshadow button-glow"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+		</div>	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<img id="logotipoStrangerThings" class="img-responsive" src="images/LogotipoStrangerThings.svg" alt="Logotipo Stranger Things" />
+				</div>
+			</div>				
+		</div>			
+	</header>
+	
+	<main>
+		<section> <!-- Comparación de imágenes -->			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="ba-slider">
+							<img class="img-responsive" src="images/antes.png" alt="Imagen del antes" />
+								<div class="resize">
+									<img class="img-responsive" src="images/despues.png" alt="Imagen del después" />
+								</div>
+							<span class="handle"></span> <!-- barra separadora de imágenes -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> 
+	</main>
+</body>
+</html>
