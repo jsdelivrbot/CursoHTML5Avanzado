@@ -1,0 +1,82 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	background: #000;
+	color: #fff;
+}
+
+
+#logotipoStrangerThings {
+	width: 400px;
+	height: auto;
+	margin: auto;
+	margin-bottom:-10%;
+}
+
+
+#boton_audio {
+	color: #fff;
+	font-weight: bold;
+	font-family: "Awesome";
+	margin: 10px;
+	position: fixed;
+	left: 0;
+	z-index: 50;
+}
+
+
+.ba-slider {
+	max-width: 500px;
+	margin: auto;
+	border: 5px solid #000;
+	margin-top:10%;
+	margin-bottom: 10%;
+}
+
+
+.ba-slider .handle:after {
+    background: #C01A28; 
+    border: 1px solid #ad111e;
+    box-shadow:
+    	0 2px 6px rgba(0, 0, 0, 0.3), 
+    	inset 0 2px 0 rgba(255, 255, 255, 0.5),
+    	inset 0 60px 50px -30px #a00613;
+}
+
+
+/* Cambio estilo mensaje de notificación */
+.humane, .humane-libnotify {
+	color: #C01A28;
+	font-size: 20px;
+}
+
+
+/* Cambio estilo mensaje cookie */
+.cookie-message {
+	width: 100%;
+	height: auto;
+	top: auto;
+	left: auto;
+	bottom: 0;
+	right: 0;
+	background: #111 url(images/cookie.png) 90% 45% no-repeat;
+}
+.cookie-message p {
+	width: 90%;
+	color: #FFF;
+	font-size: 14px;
+}
+
+.cookie-message a {
+	text-shadow: none;
+	color: #fff;
+}
+
+.cookie-message a:active {
+	color: grey;
+}
+
+.cookie-message a:hover {
+	color: #C01A28;
+}
+
